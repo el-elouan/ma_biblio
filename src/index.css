@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: block;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: white;
+}
+
+button:hover {
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#listeLivre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#listeLivre button {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#user {
+  text-align: center;
+  border: 3px solid grey;
+  width: 75%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 30px auto 15px auto;
+}

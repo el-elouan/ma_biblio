@@ -1,0 +1,332 @@
+{
+  "personne": {
+    "0": {
+      "id": 1,
+      "prenom": "Marcus",
+      "nom": "Harris",
+      "auteur": 0
+    },
+    "1": {
+      "id": 2,
+      "prenom": "Judy",
+      "nom": "Riley",
+      "auteur": 0
+    },
+    "2": {
+      "id": 3,
+      "prenom": "Joan",
+      "nom": "Sanders",
+      "auteur": 0
+    },
+    "3": {
+      "id": 4,
+      "prenom": "Nancy",
+      "nom": "Hale",
+      "auteur": 0
+    },
+    "4": {
+      "id": 5,
+      "prenom": "Carol",
+      "nom": "Conway",
+      "auteur": 0
+    },
+    "5": {
+      "id": 6,
+      "prenom": "Andrew",
+      "nom": "Ayala",
+      "auteur": 1
+    },
+    "6": {
+      "id": 7,
+      "prenom": "Christine",
+      "nom": "Delgado",
+      "auteur": 1
+    },
+    "7": {
+      "id": 8,
+      "prenom": "Christine",
+      "nom": "Stevens",
+      "auteur": 1
+    },
+    "8": {
+      "id": 9,
+      "prenom": "Robert",
+      "nom": "Howard",
+      "auteur": 0
+    },
+    "9": {
+      "id": 10,
+      "prenom": "Andrew",
+      "nom": "Gamble",
+      "auteur": 0
+    },
+    "10": {
+      "id": 11,
+      "prenom": "Alicia",
+      "nom": "Turner",
+      "auteur": 0
+    },
+    "11": {
+      "id": 12,
+      "prenom": "Rachel",
+      "nom": "Rivas",
+      "auteur": 1
+    },
+    "12": {
+      "id": 13,
+      "prenom": "Katherine",
+      "nom": "Webb",
+      "auteur": 0
+    },
+    "13": {
+      "id": 14,
+      "prenom": "Stacey",
+      "nom": "Jackson",
+      "auteur": 1
+    },
+    "14": {
+      "id": 15,
+      "prenom": "Jack",
+      "nom": "Perez",
+      "auteur": 0
+    }
+  },
+  "livre": {
+    "0": {
+      "id": 1,
+      "titre": "My first story",
+      "auteur": 5
+    },
+    "1": {
+      "id": 2,
+      "titre": "I was playing",
+      "auteur": 7
+    },
+    "2": {
+      "id": 3,
+      "titre": "Am I free ?",
+      "auteur": 6
+    },
+    "3": {
+      "id": 4,
+      "titre": "Let's gooo",
+      "auteur": 12
+    },
+    "4": {
+      "id": 5,
+      "titre": "What is NFT",
+      "auteur": 14
+    },
+    "5": {
+      "id": 6,
+      "titre": "Earn Money by wroking",
+      "auteur": 14
+    },
+    "6": {
+      "id": 7,
+      "titre": "Ez money",
+      "auteur": 7
+    },
+    "7": {
+      "id": 8,
+      "titre": "Money without working",
+      "auteur": 6
+    },
+    "8": {
+      "id": 9,
+      "titre": "On verra bien",
+      "auteur": 5
+    },
+    "9": {
+      "id": 10,
+      "titre": "Nekfeu !",
+      "auteur": 14
+    }
+  },
+  "genre": {
+    "0": {
+      "id": 1,
+      "nom": "Horreur"
+    },
+    "1": {
+      "id": 2,
+      "nom": "Fun"
+    },
+    "2": {
+      "id": 3,
+      "nom": "Sport"
+    },
+    "3": {
+      "id": 4,
+      "nom": "Dev Perso"
+    },
+    "4": {
+      "id": 5,
+      "nom": "Biographie"
+    }
+  },
+  "livregenre": {
+    "0": {
+      "id_livre": 1,
+      "id_genre": 2
+    },
+    "1": {
+      "id_livre": 4,
+      "id_genre": 4
+    },
+    "2": {
+      "id_livre": 2,
+      "id_genre": 3
+    },
+    "3": {
+      "id_livre": 6,
+      "id_genre": 5
+    },
+    "4": {
+      "id_livre": 5,
+      "id_genre": 5
+    },
+    "5": {
+      "id_livre": 10,
+      "id_genre": 5
+    },
+    "6": {
+      "id_livre": 10,
+      "id_genre": 2
+    },
+    "7": {
+      "id_livre": 10,
+      "id_genre": 3
+    },
+    "8": {
+      "id_livre": 8,
+      "id_genre": 5
+    },
+    "9": {
+      "id_livre": 7,
+      "id_genre": 4
+    },
+    "10": {
+      "id_livre": 3,
+      "id_genre": 1
+    },
+    "11": {
+      "id_livre": 9,
+      "id_genre": 4
+    },
+    "12": {
+      "id_livre": 1,
+      "id_genre": 5
+    },
+    "13": {
+      "id_livre": 5,
+      "id_genre": 1
+    },
+    "14": {
+      "id_livre": 4,
+      "id_genre": 1
+    },
+    "15": {
+      "id_livre": 7,
+      "id_genre": 1
+    },
+    "16": {
+      "id_livre": 2,
+      "id_genre": 4
+    },
+    "17": {
+      "id_livre": 3,
+      "id_genre": 3
+    },
+    "18": {
+      "id_livre": 9,
+      "id_genre": 2
+    },
+    "19": {
+      "id_livre": 6,
+      "id_genre": 1
+    }
+  },
+  "personnelivre": {
+    "0": {
+      "id_personne": 1,
+      "id_livre": 9
+    },
+    "1": {
+      "id_personne": 1,
+      "id_livre": 4
+    },
+    "2": {
+      "id_personne": 2,
+      "id_livre": 7
+    },
+    "3": {
+      "id_personne": 3,
+      "id_livre": 3
+    },
+    "4": {
+      "id_personne": 4,
+      "id_livre": 1
+    },
+    "5": {
+      "id_personne": 5,
+      "id_livre": 10
+    },
+    "6": {
+      "id_personne": 5,
+      "id_livre": 8
+    },
+    "7": {
+      "id_personne": 6,
+      "id_livre": 5
+    },
+    "8": {
+      "id_personne": 6,
+      "id_livre": 3
+    },
+    "9": {
+      "id_personne": 6,
+      "id_livre": 8
+    },
+    "10": {
+      "id_personne": 7,
+      "id_livre": 10
+    },
+    "11": {
+      "id_personne": 8,
+      "id_livre": 7
+    },
+    "12": {
+      "id_personne": 9,
+      "id_livre": 4
+    },
+    "13": {
+      "id_personne": 10,
+      "id_livre": 9
+    },
+    "14": {
+      "id_personne": 11,
+      "id_livre": 3
+    },
+    "15": {
+      "id_personne": 12,
+      "id_livre": 1
+    },
+    "16": {
+      "id_personne": 13,
+      "id_livre": 4
+    },
+    "17": {
+      "id_personne": 13,
+      "id_livre": 6
+    },
+    "18": {
+      "id_personne": 14,
+      "id_livre": 4
+    },
+    "19": {
+      "id_personne": 15,
+      "id_livre": 3
+    }
+  }
+}
